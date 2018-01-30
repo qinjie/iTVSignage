@@ -86,7 +86,7 @@ class DeviceController extends ApiController
      */
     public function actionBindClient()
     {
-        $required_post_keys = ['device_serial', 'mac', 'ip_address'];   // optional param: 'overwrite'
+        $required_post_keys = ['device_serial', 'mac'];   // optional param: 'overwrite'
         $bodyParams = \Yii::$app->request->bodyParams;
         foreach ($required_post_keys as $key) {
             if (!array_key_exists($key, $bodyParams))
@@ -94,7 +94,6 @@ class DeviceController extends ApiController
         }
         $serial = $bodyParams['device_serial'];
         $mac = $bodyParams['mac'];
-        $ip = $bodyParams['ip_address'];
         $overwrite = array_key_exists('overwrite', $bodyParams) ? $bodyParams['overwrite'] : 'false';
 
         $device = Device::findOne(['serial' => $serial]);
@@ -108,10 +107,6 @@ class DeviceController extends ApiController
         // Check existing token for same client
         $token = DeviceToken::findOne(['mac' => $mac]);
         if ($token) {
-            if ($token->ip_address != $ip) {
-                $token->ip_address = $ip;
-                $token->save(false);
-            }
             return $token;
         }
         $token = DeviceToken::findOne(['device_id' => $device->id]);
@@ -126,7 +121,6 @@ class DeviceController extends ApiController
         $token = new DeviceToken();
         $token->device_id = $device->id;
         $token->mac = $mac;
-        $token->ip_address = $ip;
         $token->token = TokenHelper::generateToken();
         $token->expire = date('Y-m-d H:i:s', time() + $interval);;
         $token->save(false);
@@ -162,7 +156,6 @@ class DeviceController extends ApiController
             throw new NotFoundHttpException('No device found for token = ' . $token);
         }
         return [
-            'device' => $device,
             'playlist' => $device->playlist,
             'files' => $device->mediaFiles
         ];

@@ -4,7 +4,8 @@ import requests
 import logging
 from utils_other import cur_func_name
 
-URL_ROOT = 'http://localhost/WiredNoticeboard'
+# URL_ROOT = 'http://localhost/WiredNoticeboard'
+URL_ROOT = 'http://13.228.113.29/WiredNoticeboard'
 URL_API = URL_ROOT + '/api/web/index.php'
 URL_FRONTEND = URL_ROOT + '/frontend/web'
 URL_UPLOAD = URL_FRONTEND + '/uploads'

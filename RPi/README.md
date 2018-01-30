@@ -1,26 +1,47 @@
-# Background
-
-
-# System Design
-
+# TODO
+* Setup crontab
+    - On off screen every 5 minutes
+    - script_setup on reboot
+    - script_sync on every 1 minute
+    - script_play on 2 minutes after reboot
+    - script_update_ip to dropbox every hour
+* Configure RPi
+    - disable power saving
+    - disable screen saver
+* Other RPi setup
+    - using key pair for ssh
+    - install vnc and disable it
+* Allow user to add one background picture for each playlist
+* Add account profile for user
+    - free account: max 1 device, max 20 file per playlist, no limit on number of playlist  
 
 # Server Setup
-
+    AWS EC2 Server
+    http://13.228.113.29/WiredNoticeboard/frontend/web/
+    http://13.228.113.29/phpmyadmin
+    
+    * FTP into 13.228.113.29
+    * Transfer web folder to /var/www/html
+    * Run   
+    
 ## Rasberry Pi Setup
 e.g. Python packages, wifi setup, power saving config
+
 ### Install required softwares
 1. Install software packages
     ```` 
     sudo apt-get update
-    sudo apt-get install libmagickwand-dev
     sudo pip install requests
     sudo pip install Wand
-    
+    sudo apt-get install feh
     sudo apt-get install omxplayer
     sudo pip install dropbox
     
-     sudo apt-get install xterm
+    sudo apt-get install xterm
+    
+    sudo apt-get install libmagickwand-dev
     ````
+        
 2. Disable power saving mode of Raspberry Pi
     http://raspberrypi.stackexchange.com/questions/34794/how-to-disable-wi-fi-dongle-sleep-mode
 
@@ -30,6 +51,11 @@ e.g. Python packages, wifi setup, power saving config
     
 4. Setup crontab. Refer to crontab.txt file for jobs
     http://www.adminschoice.com/crontab-quick-reference
+   
+   Must setup crontab to use DISPLAY=0.0
+   ```
+   DISPLAY=:0.0 python script_play.py
+   ```
    
 5. Install vnc for easy management of RPi
      http://raspberrypi.stackexchange.com/questions/34794/how-to-disable-wi-fi-dongle-sleep-mode
@@ -63,4 +89,9 @@ https://gist.github.com/simlun/1b27b14d707abbba8fc1
 brew install imagemagick@6
 ls -l /usr/local/Cellar/imagemagick@6
 ln -s /usr/local/Cellar/imagemagick@6/<your specific 6 version>/lib/libMagickWand-6.Q16.dylib /usr/local/lib/libMagickWand.dylib
+
+
+Tool For Image Slide Show
+    https://feh.finalrewind.org/
+
 

@@ -4,7 +4,7 @@ namespace common\models;
 
 use Yii;
 use yii\helpers\Url;
-use api\models\User;
+//use api\models\User;
 
 /**
  * @property int $id
@@ -56,7 +56,7 @@ class Playlist extends \yii\db\ActiveRecord
         ];
     }
 
-    public function getUser()
+    public function getOwner()
     {
 //        return $this->hasOne(User::className(), ['id' => 'user_id']);
         return User::find()->where(['id' => $this->user_id]);
@@ -72,7 +72,7 @@ class Playlist extends \yii\db\ActiveRecord
 
     public static function getBaseUploadPath()
     {
-        return Yii::getAlias('@frontend') . '/' . self::UPLOAD_FOLDER . '/';
+        return Yii::getAlias('@frontend_web') . '/' . self::UPLOAD_FOLDER . '/';
     }
 
     public static function getBaseUploadUrl($hideHttp = true)

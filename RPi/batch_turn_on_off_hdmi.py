@@ -24,21 +24,9 @@ def turn_off_hdmi():
     os.system("tvservice -o")
 
 
-def read_ini(ini_file):
-    parser = ConfigParser.SafeConfigParser()
-    parser.read(ini_file)
-    parser.defaults()
-    base_url = parser.get('default', 'url_base')
-    urls = {}
-    urls['device_enroll'] = base_url + parser.get('default', 'device_enroll')
-    urls['device_playlist'] = base_url + parser.get('default', 'device_playlist')
-    urls['device_download'] = base_url + parser.get('default', 'device_download_file')
-    return urls
-
-
 if __name__ == '__main__':
 
-    CONFIG_FILE = 'device.json'
+    CONFIG_FILE = 'setting_client_info'
     _path_cur_dir = os.path.dirname(os.path.realpath(__file__))
     _file_config = os.path.join(_path_cur_dir, CONFIG_FILE)
 

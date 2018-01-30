@@ -4,5 +4,5 @@ chmod -R 777 ./backend/runtime
 chmod -R 777 ./backend/web/assets
 chmod -R 777 ./frontend/runtime
 chmod -R 777 ./frontend/web/assets
-chmod -R 777 ./uploads
+chmod -R 777 ./frontend/web/uploads
 

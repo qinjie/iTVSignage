@@ -79,6 +79,14 @@ Backend: http://localhost/WiredNoticeboard/backend/web
 ### User Login/Logout
 
 http -v -a mark.qj:Mylife\!23 POST http://localhost/WiredNoticeboard/api/web/index.php/v1/user/login
+    - Output: {
+                  "result": "Login successfully",
+                  "role": 10,
+                  "token": "u3Ep6FTURGavLnHh7wescaOnmP0WnZ74",
+                  "username": "mark.qj"
+              }
+
+
 
 http -v POST http://localhost/WiredNoticeboard/api/web/index.php/v1/user/logout 'Authorization:Bearer _qU-16BFum5A5rzKrmNt0EVp6TZnWO2k'
 
@@ -88,7 +96,7 @@ http -v GET http://localhost/WiredNoticeboard/api/web/index.php/v1/device 'Autho
 
 http -v GET http://localhost/WiredNoticeboard/api/web/index.php/v1/device/10?expand=user,mediaFiles,playlist,token 'Authorization:Bearer Q7e3_Vh54exZXMbcQqWntsGdDuK5j2KA'
 
-http -v POST http://localhost/WiredNoticeboard/api/web/index.php/v1/device/bind-client 'Authorization:Bearer Q7e3_Vh54exZXMbcQqWntsGdDuK5j2KA' device_serial='S9JX4VrIKqnjYBEu6ACWbj' mac='mac-abcd' 'ip_address'='127.0.1.1' 'overwrite'='true'
+http -v POST http://localhost/WiredNoticeboard/api/web/index.php/v1/device/bind-client 'Authorization:Bearer Q7e3_Vh54exZXMbcQqWntsGdDuK5j2KA' device_serial='S9JX4VrIKqnjYBEu6ACWbj' mac='mac-abcd' 'overwrite'='true'
 
 http -v POST http://localhost/WiredNoticeboard/api/web/index.php/v1/device/client-ping device_token='PXbKe4ePiPJP2tR9UnjchsNBBtRxgWTR' mac='mac-abcd' 'ip_address'='127.0.3.1'
 

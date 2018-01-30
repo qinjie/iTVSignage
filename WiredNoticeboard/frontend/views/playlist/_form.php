@@ -38,7 +38,7 @@ use kartik\widgets\FileInput;
                     'initialPreviewFileType' => 'image',
                     'initialPreviewDownloadUrl' => $downloadUrl . '{real_filename}',
                     'initialPreviewConfig' => $initialPreviewConfig,
-                    'uploadUrl' => Url::to(['/playlist/upload-ajax']),
+                    'uploadUrl' => Url::to(['/playlist/media-ajax']),
                     'uploadExtraData' => [
                         'ref' => $model->ref,
                     ],

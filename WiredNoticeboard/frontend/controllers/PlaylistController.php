@@ -174,7 +174,7 @@ class PlaylistController extends Controller
     |================================ Media Ajax ====================================|
     |*********************************************************************************|*/
 
-    public function actionUploadAjax()
+    public function actionMediaAjax()
     {
         $this->Uploads(true);
     }
