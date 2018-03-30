@@ -8,6 +8,7 @@ import sys
 
 import utils_rpi
 import api
+from utils_other import web_site_online
 
 
 # Script
@@ -15,7 +16,6 @@ import api
 #   - run upon reboot
 # 1) skip if "setting_device_token" exists
 # 2) the script requires user input to generate "setting_device_token" file
-from utils_other import web_site_online
 
 
 def init_logger():

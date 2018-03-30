@@ -14,7 +14,7 @@ count = 0
 while not utils_other.web_site_online():
     if count >= WAIT_ONLINE_SECONDS:
         exit(2)
-    print "Wait for internet connection."
+    print("Wait for internet connection.")
     time.sleep(15)  # Delay for 15 seconds
     count = count + 15
 

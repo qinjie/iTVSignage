@@ -9,7 +9,7 @@
 # and day of week (dow) or use '*' in these fields (for 'any').# 
 # Notice that tasks will be started based on the cron's system
 # daemon's notion of time and timezones.
-# 
+#
 # Output of the crontab jobs (including errors) is sent through
 # email to the user the crontab file belongs to (unless redirected).
 # 
@@ -27,7 +27,7 @@
 
 # Update IP address after reboot and every hour at 30 minute
 @reboot (sleep 1m; cd /home/pi/project-wn/ || exit 1; /usr/bin/python /home/pi/project-wn/batch_update_ip_to_dropbox.py &)
-30 * * * * (cd /home/pi/project-wn/ || exit 1; /usr/bin/python /home/pi/project-wn/batch_update_ip_to_dropbox.py &)
+0 * * * * (cd /home/pi/project-wn/ || exit 1; /usr/bin/python /home/pi/project-wn/batch_update_ip_to_dropbox.py &)
 
 # Sync with server every minute
 * * * * * (cd /home/pi/project-wn/ || exit 1; /usr/bin/python /home/pi/project-wn/script_sync.py &)

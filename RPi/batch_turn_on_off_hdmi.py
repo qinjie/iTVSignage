@@ -1,4 +1,5 @@
-import ConfigParser
+from __future__ import print_function
+from six.moves import configparser
 import datetime
 import json
 import os
@@ -6,7 +7,7 @@ import os
 
 def read_config(filepath):
     if not os.path.exists(filepath):
-        print 'Missing device configuration file.'
+        print('Missing device configuration file.')
         return {}
     else:
         with open(filepath, 'rb') as f:
@@ -32,7 +33,7 @@ if __name__ == '__main__':
 
     config_json = read_config(_file_config)
     if (not config_json['turn_on_time']) and (not config_json['turn_on_time']):
-        print "No turn_on_time and turn_off_time setting found."
+        print("No turn_on_time and turn_off_time setting found.")
         exit(1)
 
     turn_on_time = datetime.datetime.strptime(config_json['turn_on_time'], "%H:%M:%S").time()
@@ -43,9 +44,9 @@ if __name__ == '__main__':
 
     cur_time = datetime.datetime.time(datetime.datetime.now())
 
-    print "Current Time: {}".format(cur_time)
-    print "ON Time: {}".format(turn_on_time)
-    print "OFF Time: {}".format(turn_off_time)
+    print("Current Time: {}".format(cur_time))
+    print("ON Time: {}".format(turn_on_time))
+    print("OFF Time: {}".format(turn_off_time))
 
     if turn_on_time < turn_off_time:
         if cur_time < turn_on_time or cur_time > turn_off_time:
