@@ -133,7 +133,7 @@ if __name__ == '__main__':
                 # cmd = 'DISPLAY=:0.0 omxplayer -o hdmi -b {}'.format(v)
                 # os.system(cmd + ' > /dev/null')
                 ## Option 2
-                cmd = ['omxplayer', '-o', 'hdmi', '-b', v]
+                cmd = ['omxplayer', '-o', 'both', '-b', v]
                 proc_video = subprocess.call(cmd)
 
                 ## Test on Mac
