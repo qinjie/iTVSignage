@@ -1,6 +1,7 @@
 # TODO
-* RPi Setup
-    - using key pair for ssh
+
+* Update setting_client_info during sync too
+
 * Setup Crontab
     - On off screen every 5 minutes
     - script_setup on reboot
