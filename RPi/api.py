@@ -10,6 +10,7 @@ URL_API = URL_ROOT + '/api/web/index.php'
 URL_FRONTEND = URL_ROOT + '/frontend/web'
 URL_UPLOAD = URL_FRONTEND + '/uploads'
 
+
 def init_logger():
     logging.basicConfig(level=logging.DEBUG)
     logger = logging.getLogger(__name__)
@@ -157,3 +158,29 @@ def client_ping(device_token, rpi_mac, ip_address):
     except requests.exceptions.RequestException as e:
         logger.error(e.message, exc_info=True)
         return None
+
+
+def get_device_info(device_token, rpi_mac):
+    logger = init_logger()
+    logger.info(cur_func_name())
+    try:
+        url = URL_API + '/v1/device/get-device-info'
+        header = {'Accept': 'application/json', 'content-type': 'application/json'}
+        data = {'mac': rpi_mac, 'device_token': device_token}
+        r = requests.post(url, headers=header, data=json.dumps(data))
+        logger.info(r.text)
+        if r.status_code == 200:
+            return r.json()
+        else:
+            logger.warn("Failed to get device list")
+            return None
+    except requests.exceptions.RequestException as e:
+        logger.error(e.message, exc_info=True)
+        return None
+
+
+if __name__ == '__main__':
+    device_token = 'miJI8qpgn3Iz3V1ZYMWIWHMm3dunmtaq'
+    rpi_mac = '00000000035b1b07'
+    device_info = get_device_info(device_token, rpi_mac)
+    print(device_info)

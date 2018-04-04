@@ -1,4 +1,7 @@
 sudo apt-get update -y && \
+sudo apt-get purge -y libreoffice* wolfram-engine sonic-pi scratch && \
+sudo apt-get clean -y && \
+sudo apt-get autoremove -y && \
 sudo apt-get install vim -y && \
 sudo apt-get install ntp -y && \
 sudo apt-get install postfix -y && \

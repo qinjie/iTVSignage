@@ -10,7 +10,6 @@ import utils_rpi
 import api
 import os.path
 
-
 # Script
 #   - ping with server to get updated device setting and playlist files
 #   - run every minute
@@ -44,6 +43,21 @@ def read_client_token():
     except Exception as e:
         logger.error(e.message, exc_info=True)
         return None
+
+
+def update_device_info(device_token):
+    # Check existing settings
+    cur_dir = os.path.dirname(os.path.realpath(__file__))
+    filename_client_info = 'setting_client_info'
+    filepath_client_info = os.path.join(cur_dir, filename_client_info)
+
+    # retrieve device info using device token
+    device_mac = utils_rpi.get_mac()
+    device_info = api.get_device_info(device_token, device_mac)
+    # save device data to "setting_client_info" file
+    with open(filepath_client_info, 'w') as f:
+        f.write(json.dumps(device_info['device']))
+    return
 
 
 def fetch_device_playlist(device_token):
@@ -87,6 +101,7 @@ def update_client_playlist(playlist):
     except Exception as e:
         logger.warning("Exception while read setting_client_playlist")
         return False
+
 
 # Check if playlist and files has changed
 def is_playlist_changed(new_playlist, old_playlist):
@@ -187,6 +202,9 @@ if __name__ == '__main__':
         if not device_token:
             logger.error("Failed to read device token")
             sys.exit()
+
+        # Update device info
+        update_device_info(device_token)
 
         # Fetch new playlist
         new_playlist = fetch_device_playlist(device_token)
