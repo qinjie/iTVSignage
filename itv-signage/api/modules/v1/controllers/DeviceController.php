@@ -31,7 +31,7 @@ class DeviceController extends ApiController
         $behaviors = parent::behaviors();
 
         $behaviors['authenticator']['except'] = [
-            'client-ping', 'update-status'
+            'client-ping', 'update-status', 'get-device-info'
         ];
 
         $behaviors['access'] = [
@@ -41,7 +41,7 @@ class DeviceController extends ApiController
             ],
             'rules' => [
                 [
-                    'actions' => ['client-ping', 'update-status'],
+                    'actions' => ['client-ping', 'update-status', 'get-device-info'],
                     'allow' => true,
                     'roles' => ['?'],
                 ],
@@ -72,6 +72,7 @@ class DeviceController extends ApiController
             'actions' => [
                 'bind-client' => ['POST'],
                 'client-ping' => ['POST'],
+                'get-device-info' => ['POST'],
                 'update-status' => ['POST']
             ],
         ];
@@ -145,7 +146,7 @@ class DeviceController extends ApiController
         $token = DeviceToken::findOne(['token' => $token, 'mac' => $mac]);
         if (!$token) {
             throw new UnauthorizedHttpException('Invalid token for device with mac: ' . $token . ', ' . $mac);
-        }else {
+        } else {
             $token->ip_address = $ip;
             $token->save(false);
         }
@@ -158,6 +159,34 @@ class DeviceController extends ApiController
         return [
             'playlist' => $device->playlist,
             'files' => $device->mediaFiles
+        ];
+    }
+
+    public function actionGetDeviceInfo()
+    {
+        // Check incoming POST data
+        $required_post_keys = ['device_token', 'mac'];
+        $bodyParams = \Yii::$app->request->bodyParams;
+        foreach ($required_post_keys as $key) {
+            if (!array_key_exists($key, $bodyParams))
+                throw new InvalidParamException('Missing required data: ' . $key);
+        }
+        $token = $bodyParams['device_token'];
+        $mac = $bodyParams['mac'];
+
+        # Validate device token
+        $token = DeviceToken::findOne(['token' => $token, 'mac' => $mac]);
+        if (!$token) {
+            throw new UnauthorizedHttpException('Invalid token for device with mac: ' . $token . ', ' . $mac);
+        }
+
+        # Return device setting and media files
+        $device = Device::findOne(['id' => $token->device_id]);
+        if (!$device) {
+            throw new NotFoundHttpException('No device found for token = ' . $token);
+        }
+        return [
+            'device' => $device,
         ];
     }
 

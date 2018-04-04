@@ -6,7 +6,7 @@ $params = array_merge(
 
 return [
     'id' => 'app-api',
-    'name' => 'Wired Noticeboard',
+    'name' => 'iTV Signage',
     'timeZone' => 'Asia/Singapore',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
@@ -60,15 +60,15 @@ return [
         ],
         'urlManagerBackend' => [
             'class' => 'yii\web\urlManager',
-            'baseUrl' => '/WiredNoticeboard/backend/web',
-            'scriptUrl'=>'/WiredNoticeboard/backend/web/',
+            'baseUrl' => '/itv-signage/backend/web',
+            'scriptUrl' => '/itv-signage/backend/web/',
             'enablePrettyUrl' => true,
             'showScriptName' => false,
         ],
         'urlManagerFrontend' => [
             'class' => 'yii\web\urlManager',
-            'baseUrl' => '/WiredNoticeboard/frontend/web',
-            'scriptUrl'=>'/WiredNoticeboard/frontend/web/',
+            'baseUrl' => '/itv-signage/frontend/web',
+            'scriptUrl' => '/itv-signage/frontend/web/',
             'enablePrettyUrl' => true,
             'showScriptName' => false,
         ],
@@ -85,6 +85,7 @@ return [
                         'POST bind-client' => 'bind-client',
                         'POST client-ping' => 'client-ping',
                         'POST update-status' => 'update-status',
+                        'POST get-device-info' => 'get-device-info',
                     ],
                     'tokens' => [
                         # Keep 'id' for default CRUD action

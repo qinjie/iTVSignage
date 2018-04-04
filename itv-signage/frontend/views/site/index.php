@@ -10,9 +10,9 @@ $this->title = Yii::$app->name;
 <div class="site-index">
 
     <div class="jumbotron">
-        <h1>Easy Digital Signage</h1>
+        <h1>TV Signage Made Easy</h1>
 
-        <p class="lead">Setup your own digital signages in 10 minutes!</p>
+        <p class="lead">Setup your own TV signage in less than 10 minutes!</p>
 
         <p><a class="btn btn-lg btn-success" href="<?= Url::to(['site/signup']) ?>">Get Free Account</a></p>
     </div>
