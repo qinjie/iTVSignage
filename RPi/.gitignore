@@ -3,3 +3,5 @@
 /settting_client_token
 /frontstage/
 /backstage/
+/__pycache__/
+*.pyc
