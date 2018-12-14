@@ -1,9 +1,281 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f6e9f4c-966a-4157-b2de-a7eb52c0ac34" name="Default" comment="" />
+    <list default="true" id="5f6e9f4c-966a-4157-b2de-a7eb52c0ac34" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/RPi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/RPi.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crontab.txt" beforeDir="false" afterPath="$PROJECT_DIR$/crontab.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/monitor_cron.sh" beforeDir="false" afterPath="$PROJECT_DIR$/monitor_cron.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/monitor_script.sh" beforeDir="false" afterPath="$PROJECT_DIR$/monitor_script.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpi_config.sh" beforeDir="false" afterPath="$PROJECT_DIR$/rpi_config.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpi_setup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/rpi_setup.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/1_setup_after_transfer.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/1_setup_after_transfer.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/2_template_htaccess.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/2_template_htaccess.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/Vagrantfile" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/Vagrantfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/api/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/api/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/api/config/main-local.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/api/config/main-local.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/api/config/params-local.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/api/config/params-local.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/api/config/params.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/api/config/params.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/api/controllers/ApiController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/api/controllers/ApiController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/api/models/Device.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/api/models/Device.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/api/models/DeviceToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/api/models/DeviceToken.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/api/models/Media.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/api/models/Media.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/api/models/Playlist.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/api/models/Playlist.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/api/models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/api/models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/api/models/UserSetting.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/api/models/UserSetting.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/api/models/UserToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/api/models/UserToken.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/api/modules/v0/Module.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/api/modules/v0/Module.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/api/modules/v0/controllers/DeviceController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/api/modules/v0/controllers/DeviceController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/api/modules/v0/controllers/DeviceMediaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/api/modules/v0/controllers/DeviceMediaController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/api/modules/v0/controllers/MediaFileController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/api/modules/v0/controllers/MediaFileController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/api/modules/v0/controllers/NodeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/api/modules/v0/controllers/NodeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/api/modules/v0/controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/api/modules/v0/controllers/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/api/modules/v1/Module.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/api/modules/v1/Module.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/api/modules/v1/controllers/PlaylistController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/api/modules/v1/controllers/PlaylistController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/api/modules/v1/controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/api/modules/v1/controllers/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/api/runtime/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/api/runtime/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/api/web/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/api/web/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/api/web/assets/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/api/web/assets/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/api/web/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/api/web/css/site.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/api/web/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/api/web/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/api/web/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/api/web/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/backend/assets/AppAsset.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/backend/assets/AppAsset.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/backend/codeception.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/backend/codeception.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/backend/config/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/backend/config/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/backend/config/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/backend/config/bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/backend/config/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/backend/config/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/backend/config/params.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/backend/config/params.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/backend/config/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/backend/config/test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/backend/controllers/DeviceController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/backend/controllers/DeviceController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/backend/controllers/SiteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/backend/controllers/SiteController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/backend/controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/backend/controllers/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/backend/models/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/backend/models/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/backend/runtime/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/backend/runtime/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/backend/tests/_bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/backend/tests/_bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/backend/tests/_data/login_data.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/backend/tests/_data/login_data.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/backend/tests/_output/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/backend/tests/_output/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/backend/tests/_support/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/backend/tests/_support/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/backend/tests/_support/FunctionalTester.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/backend/tests/_support/FunctionalTester.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/backend/tests/_support/UnitTester.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/backend/tests/_support/UnitTester.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/backend/tests/functional.suite.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/backend/tests/functional.suite.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/backend/tests/functional/LoginCest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/backend/tests/functional/LoginCest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/backend/tests/functional/_bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/backend/tests/functional/_bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/backend/tests/unit.suite.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/backend/tests/unit.suite.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/backend/tests/unit/_bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/backend/tests/unit/_bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/backend/views/device/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/backend/views/device/_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/backend/views/device/_search.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/backend/views/device/_search.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/backend/views/device/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/backend/views/device/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/backend/views/device/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/backend/views/device/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/backend/views/device/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/backend/views/device/update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/backend/views/device/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/backend/views/device/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/backend/views/layouts/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/backend/views/layouts/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/backend/views/site/account.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/backend/views/site/account.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/backend/views/site/changePassword.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/backend/views/site/changePassword.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/backend/views/site/error.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/backend/views/site/error.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/backend/views/site/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/backend/views/site/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/backend/views/site/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/backend/views/site/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/backend/views/site/requestPasswordReset.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/backend/views/site/requestPasswordReset.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/backend/views/site/requestPasswordResetToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/backend/views/site/requestPasswordResetToken.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/backend/views/site/resetPassword.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/backend/views/site/resetPassword.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/backend/views/user/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/backend/views/user/_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/backend/views/user/_search.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/backend/views/user/_search.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/backend/views/user/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/backend/views/user/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/backend/views/user/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/backend/views/user/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/backend/views/user/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/backend/views/user/update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/backend/views/user/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/backend/views/user/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/backend/web/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/backend/web/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/backend/web/assets/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/backend/web/assets/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/backend/web/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/backend/web/css/site.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/backend/web/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/backend/web/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/codeception.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/codeception.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/common/codeception.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/common/codeception.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/common/components/AccessRule.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/common/components/AccessRule.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/common/components/Alert.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/common/components/Alert.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/common/components/PhpManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/common/components/PhpManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/common/components/Thread.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/common/components/Thread.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/common/components/TokenHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/common/components/TokenHelper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/common/components/Utils.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/common/components/Utils.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/common/config/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/common/config/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/common/config/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/common/config/bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/common/config/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/common/config/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/common/config/params.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/common/config/params.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/common/config/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/common/config/test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/common/fixtures/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/common/fixtures/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/common/mail/layouts/html.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/common/mail/layouts/html.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/common/mail/layouts/text.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/common/mail/layouts/text.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/common/mail/passwordResetToken-html.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/common/mail/passwordResetToken-html.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/common/mail/passwordResetToken-text.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/common/mail/passwordResetToken-text.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/common/models/Device.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/common/models/Device.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/common/models/DeviceSearch.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/common/models/DeviceSearch.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/common/models/DeviceToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/common/models/DeviceToken.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/common/models/LoginModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/common/models/LoginModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/common/models/Media.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/common/models/Media.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/common/models/MediaSearch.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/common/models/MediaSearch.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/common/models/Playlist.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/common/models/Playlist.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/common/models/PlaylistSearch.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/common/models/PlaylistSearch.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/common/models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/common/models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/common/models/UserSearch.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/common/models/UserSearch.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/common/models/UserSetting.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/common/models/UserSetting.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/common/models/UserSettingSearch.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/common/models/UserSettingSearch.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/common/models/UserToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/common/models/UserToken.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/common/models/form/ChangeEmailForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/common/models/form/ChangeEmailForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/common/models/form/ChangePasswordForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/common/models/form/ChangePasswordForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/common/models/form/ContactForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/common/models/form/ContactForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/common/models/form/EmailConfirmForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/common/models/form/EmailConfirmForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/common/models/form/LoginForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/common/models/form/LoginForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/common/models/form/PasswordResetRequestForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/common/models/form/PasswordResetRequestForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/common/models/form/ResetPasswordForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/common/models/form/ResetPasswordForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/common/models/form/ResetPasswordRequestForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/common/models/form/ResetPasswordRequestForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/common/models/form/SignupForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/common/models/form/SignupForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/common/tests/_bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/common/tests/_bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/common/tests/_data/user.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/common/tests/_data/user.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/common/tests/_output/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/common/tests/_output/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/common/tests/_support/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/common/tests/_support/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/common/tests/_support/UnitTester.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/common/tests/_support/UnitTester.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/common/tests/unit.suite.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/common/tests/unit.suite.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/common/tests/unit/models/LoginFormTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/common/tests/unit/models/LoginFormTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/common/widgets/Alert.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/common/widgets/Alert.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/console/config/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/console/config/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/console/config/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/console/config/bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/console/config/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/console/config/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/console/config/params.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/console/config/params.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/console/migrations/m130524_201442_init.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/console/migrations/m130524_201442_init.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/console/models/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/console/models/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/console/runtime/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/console/runtime/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/environments/dev/backend/config/main-local.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/environments/dev/backend/config/main-local.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/environments/dev/backend/config/params-local.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/environments/dev/backend/config/params-local.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/environments/dev/backend/config/test-local.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/environments/dev/backend/config/test-local.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/environments/dev/backend/web/index-test.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/environments/dev/backend/web/index-test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/environments/dev/backend/web/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/environments/dev/backend/web/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/environments/dev/common/config/main-local.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/environments/dev/common/config/main-local.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/environments/dev/common/config/params-local.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/environments/dev/common/config/params-local.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/environments/dev/common/config/test-local.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/environments/dev/common/config/test-local.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/environments/dev/console/config/main-local.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/environments/dev/console/config/main-local.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/environments/dev/console/config/params-local.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/environments/dev/console/config/params-local.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/environments/dev/frontend/config/main-local.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/environments/dev/frontend/config/main-local.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/environments/dev/frontend/config/params-local.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/environments/dev/frontend/config/params-local.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/environments/dev/frontend/config/test-local.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/environments/dev/frontend/config/test-local.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/environments/dev/frontend/web/index-test.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/environments/dev/frontend/web/index-test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/environments/dev/frontend/web/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/environments/dev/frontend/web/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/environments/dev/yii" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/environments/dev/yii" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/environments/dev/yii_test" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/environments/dev/yii_test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/environments/dev/yii_test.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/environments/dev/yii_test.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/environments/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/environments/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/environments/prod/backend/config/main-local.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/environments/prod/backend/config/main-local.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/environments/prod/backend/config/params-local.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/environments/prod/backend/config/params-local.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/environments/prod/backend/web/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/environments/prod/backend/web/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/environments/prod/common/config/main-local.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/environments/prod/common/config/main-local.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/environments/prod/common/config/params-local.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/environments/prod/common/config/params-local.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/environments/prod/console/config/main-local.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/environments/prod/console/config/main-local.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/environments/prod/console/config/params-local.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/environments/prod/console/config/params-local.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/environments/prod/frontend/config/main-local.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/environments/prod/frontend/config/main-local.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/environments/prod/frontend/config/params-local.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/environments/prod/frontend/config/params-local.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/environments/prod/frontend/web/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/environments/prod/frontend/web/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/environments/prod/yii" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/environments/prod/yii" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/assets/AppAsset.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/assets/AppAsset.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/codeception.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/codeception.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/config/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/config/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/config/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/config/bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/config/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/config/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/config/params.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/config/params.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/config/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/config/test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/controllers/DeviceController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/controllers/DeviceController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/controllers/MediaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/controllers/MediaController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/controllers/PlaylistController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/controllers/PlaylistController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/controllers/SiteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/controllers/SiteController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/controllers/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/runtime/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/runtime/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/tests/_bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/tests/_bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/tests/_data/login_data.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/tests/_data/login_data.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/tests/_data/user.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/tests/_data/user.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/tests/_output/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/tests/_output/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/tests/_support/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/tests/_support/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/tests/_support/FunctionalTester.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/tests/_support/FunctionalTester.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/tests/_support/UnitTester.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/tests/_support/UnitTester.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/tests/acceptance.suite.yml.example" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/tests/acceptance.suite.yml.example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/tests/acceptance/HomeCest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/tests/acceptance/HomeCest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/tests/acceptance/_bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/tests/acceptance/_bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/tests/functional.suite.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/tests/functional.suite.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/tests/functional/AboutCest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/tests/functional/AboutCest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/tests/functional/ContactCest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/tests/functional/ContactCest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/tests/functional/HomeCest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/tests/functional/HomeCest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/tests/functional/LoginCest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/tests/functional/LoginCest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/tests/functional/SignupCest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/tests/functional/SignupCest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/tests/functional/_bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/tests/functional/_bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/tests/unit.suite.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/tests/unit.suite.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/tests/unit/_bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/tests/unit/_bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/tests/unit/models/ContactFormTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/tests/unit/models/ContactFormTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/tests/unit/models/PasswordResetRequestFormTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/tests/unit/models/PasswordResetRequestFormTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/tests/unit/models/ResetPasswordFormTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/tests/unit/models/ResetPasswordFormTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/tests/unit/models/SignupFormTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/tests/unit/models/SignupFormTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/views/device/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/views/device/_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/views/device/_search.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/views/device/_search.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/views/device/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/views/device/add.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/views/device/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/views/device/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/views/device/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/views/device/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/views/device/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/views/device/update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/views/device/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/views/device/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/views/layouts/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/views/layouts/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/views/media/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/views/media/_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/views/media/_search.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/views/media/_search.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/views/media/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/views/media/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/views/media/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/views/media/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/views/media/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/views/media/update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/views/media/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/views/media/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/views/playlist/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/views/playlist/_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/views/playlist/_search.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/views/playlist/_search.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/views/playlist/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/views/playlist/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/views/playlist/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/views/playlist/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/views/playlist/sort.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/views/playlist/sort.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/views/playlist/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/views/playlist/update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/views/playlist/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/views/playlist/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/views/site/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/views/site/about.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/views/site/account.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/views/site/account.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/views/site/changePassword.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/views/site/changePassword.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/views/site/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/views/site/contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/views/site/error.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/views/site/error.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/views/site/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/views/site/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/views/site/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/views/site/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/views/site/requestPasswordResetToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/views/site/requestPasswordResetToken.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/views/site/resetPassword.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/views/site/resetPassword.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/views/site/signup.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/views/site/signup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/views/user/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/views/user/_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/views/user/_search.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/views/user/_search.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/views/user/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/views/user/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/views/user/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/views/user/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/views/user/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/views/user/update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/views/user/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/views/user/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/web/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/web/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/web/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/web/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/web/assets/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/web/assets/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/web/css/jquery-3.2.0.js" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/web/css/jquery-3.2.0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/web/css/jquery-3.2.0.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/web/css/jquery-3.2.0.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/web/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/web/css/site.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/frontend/web/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/frontend/web/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/init" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/init" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/init.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/init.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/requirements.php" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/requirements.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/vagrant/config/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/vagrant/config/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/vagrant/config/vagrant-local.example.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/vagrant/config/vagrant-local.example.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/vagrant/nginx/app.conf" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/vagrant/nginx/app.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/vagrant/nginx/log/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/vagrant/nginx/log/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/vagrant/provision/always-as-root.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/vagrant/provision/always-as-root.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/vagrant/provision/once-as-root.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/vagrant/provision/once-as-root.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/vagrant/provision/once-as-vagrant.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/vagrant/provision/once-as-vagrant.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yii-signage/yii.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../yii-signage/yii.bat" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,34 +283,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="rpi_config.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rpi_config.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rpi_setup.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rpi_setup.sh">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="script_play.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/script_play.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="87" column="30" selection-start-line="87" selection-start-column="30" selection-end-line="87" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="script_sync.py" pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/script_sync.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="181" selection-start-line="181" selection-end-line="181" />
+            <state relative-caret-position="1513">
+              <caret line="109" column="25" selection-start-line="109" selection-start-column="25" selection-end-line="109" selection-end-column="25" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -46,53 +295,91 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="api.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rpi_setup.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2484">
-              <caret line="182" selection-start-line="182" selection-end-line="182" selection-end-column="53" />
+            <state relative-caret-position="1241">
+              <caret line="73" column="79" selection-start-line="73" selection-start-column="79" selection-end-line="73" selection-end-column="79" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="batch_turn_on_off_hdmi.py" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="1173">
+                <caret line="69" column="4" selection-start-line="69" selection-start-column="4" selection-end-line="69" selection-end-column="28" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/crontab.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="249">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/batch_turn_on_off_hdmi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
+            <state relative-caret-position="782">
               <caret line="50" column="36" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="crontab.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crontab.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="43" selection-start-line="43" selection-end-line="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="script_setup.py" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/script_setup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-32">
-              <caret line="39" column="25" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="25" />
+            <state relative-caret-position="255">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
-                <marker date="1522393093630" expanded="true" signature="2305:2334" ph="Select a dev... the" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="setting_client_token" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_backup/setting_client_token">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils_rpi.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="36" selection-start-column="36" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils_other.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils_logger.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -112,10 +399,20 @@
       <find>fetch_device_playlist</find>
       <find>update_status</find>
       <find>update_device</find>
+      <find>crontab</find>
+      <find>postfix</find>
+      <find>bin/sh</find>
+      <find>feh</find>
+      <find>hdmi</find>
+      <find>blank</find>
+      <find>xscreensaver</find>
     </findStrings>
     <dirStrings>
       <dir>D:\GitHub\WiredNoticeboard2\RPi</dir>
     </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -126,29 +423,27 @@
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/script_setup.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/rpi_config.sh" />
         <option value="$PROJECT_DIR$/batch_monitor.sh" />
         <option value="$PROJECT_DIR$/batch_monitor_script.sh" />
-        <option value="$PROJECT_DIR$/monitor_cron.sh" />
-        <option value="$PROJECT_DIR$/crontab.txt" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/rpi_setup.sh" />
-        <option value="$PROJECT_DIR$/api.py" />
         <option value="$PROJECT_DIR$/script_sync.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/rpi_config.sh" />
+        <option value="$PROJECT_DIR$/monitor_script.sh" />
+        <option value="$PROJECT_DIR$/monitor_cron.sh" />
+        <option value="$PROJECT_DIR$/api.py" />
+        <option value="$PROJECT_DIR$/crontab.txt" />
+        <option value="$PROJECT_DIR$/rpi_setup.sh" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-12" />
     <option name="y" value="-12" />
-    <option name="width" value="2903" />
-    <option name="height" value="1583" />
+    <option name="width" value="1944" />
+    <option name="height" value="1062" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -160,22 +455,17 @@
         <subPane>
           <expand>
             <path>
-              <item name="RPi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RPi" type="462c0819:PsiDirectoryNode" />
+              <item name="rpi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpi" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="RPi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RPi" type="462c0819:PsiDirectoryNode" />
-              <item name="_backup" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RPi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RPi" type="462c0819:PsiDirectoryNode" />
+              <item name="rpi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpi" type="462c0819:PsiDirectoryNode" />
               <item name="backstage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="RPi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RPi" type="462c0819:PsiDirectoryNode" />
+              <item name="rpi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpi" type="462c0819:PsiDirectoryNode" />
               <item name="frontstage" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -185,10 +475,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="settings.editor.selected.configurable" value="aws" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -220,82 +510,56 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522307554542</updated>
+      <workItem from="1544661953481" duration="2266000" />
+      <workItem from="1544670201828" duration="379000" />
+      <workItem from="1544677778989" duration="8236000" />
+      <workItem from="1544713000502" duration="237000" />
+      <workItem from="1544713279648" duration="611000" />
+      <workItem from="1544748704381" duration="6970000" />
+      <workItem from="1544778141757" duration="2214000" />
+      <workItem from="1544780837927" duration="1198000" />
     </task>
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="22111000" />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12916666" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.28233972" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22267206" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="aws.explorer" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.28233972" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Python Console" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/rpi_setup.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/script_play.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1479">
+        <state relative-caret-position="1258">
           <caret line="87" column="30" selection-start-line="87" selection-start-column="30" selection-end-line="87" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script_sync.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crontab.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script_setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1088">
-          <caret line="74" column="46" selection-start-line="74" selection-start-column="35" selection-end-line="74" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-            <marker date="1522393093630" expanded="true" signature="2305:2334" ph="Select a dev... the" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -306,286 +570,130 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/batch_turn_on_off_hdmi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="46" column="46" lean-forward="true" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpi_setup.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script_play.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1479">
-          <caret line="87" column="30" selection-start-line="87" selection-start-column="30" selection-end-line="87" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script_sync.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crontab.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script_setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1088">
-          <caret line="74" column="46" selection-start-line="74" selection-start-column="35" selection-end-line="74" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-            <marker date="1522393093630" expanded="true" signature="2305:2334" ph="Select a dev... the" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_backup/setting_client_token">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="36" selection-start-column="36" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/batch_turn_on_off_hdmi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md" />
-    <entry file="file://$PROJECT_DIR$/rpi_setup.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script_play.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2349">
-          <caret line="87" column="30" selection-start-line="87" selection-start-column="30" selection-end-line="87" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script_sync.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crontab.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1161">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script_setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1728">
-          <caret line="74" column="46" selection-start-line="74" selection-start-column="35" selection-end-line="74" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-            <marker date="1522393093630" expanded="true" signature="2305:2334" ph="Select a dev... the" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_backup/setting_client_token">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="36" selection-start-column="36" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/batch_turn_on_off_hdmi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpi_setup.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/monitor_cron.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md" />
-    <entry file="file://$PROJECT_DIR$/monitor_script.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/batch_update_ip_to_dropbox.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="14" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script_sync.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1620">
-          <caret line="60" column="4" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/batch_turn_on_off_hdmi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crontab.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1161">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script_setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-            <marker date="1522393093630" expanded="true" signature="2305:2334" ph="Select a dev... the" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script_play.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2349">
-          <caret line="87" column="30" lean-forward="true" selection-start-line="87" selection-start-column="30" selection-end-line="87" selection-end-column="30" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/background.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/batch_update_ip_to_dropbox.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/monitor_script.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/monitor_cron.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rpi_config.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/script_play.py">
+    <entry file="file://$PROJECT_DIR$/monitor_script.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="87" column="30" selection-start-line="87" selection-start-column="30" selection-end-line="87" selection-end-column="30" />
+          <caret line="1" column="25" lean-forward="true" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rpi_setup.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_backup/setting_client_token">
+    <entry file="file://$PROJECT_DIR$/monitor_cron.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="36" selection-start-column="36" selection-end-column="36" />
+        <state relative-caret-position="17">
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/script_setup.py">
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-32">
-          <caret line="39" column="25" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="25" />
+        <state relative-caret-position="68">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/batch_update_ip_to_dropbox.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
-            <marker date="1522393093630" expanded="true" signature="2305:2334" ph="Select a dev... the" />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crontab.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/batch_turn_on_off_hdmi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="50" column="36" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2484">
-          <caret line="182" selection-start-line="182" selection-end-line="182" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/script_sync.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="181" selection-start-line="181" selection-end-line="181" />
+        <state relative-caret-position="1513">
+          <caret line="109" column="25" selection-start-line="109" selection-start-column="25" selection-end-line="109" selection-end-column="25" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="1173">
+            <caret line="69" column="4" selection-start-line="69" selection-start-column="4" selection-end-line="69" selection-end-column="28" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/batch_turn_on_off_hdmi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="50" column="36" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script_setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils_rpi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils_other.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils_logger.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crontab.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpi_setup.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="73" column="79" selection-start-line="73" selection-start-column="79" selection-end-line="73" selection-end-column="79" />
         </state>
       </provider>
     </entry>

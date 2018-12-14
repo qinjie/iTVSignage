@@ -1,3 +1,4 @@
+
 # Edit this file to introduce tasks to be run by cron.
 # 
 # Each task to run has to be defined through a single line
@@ -31,6 +32,9 @@
 
 # Sync with server every minute
 * * * * * (cd /home/pi/project-wn/ || exit 1; /usr/bin/python /home/pi/project-wn/script_sync.py &)
+
+# De-activate xscreensaver
+*/2 * * * * xscreensaver-command -deactivate
 
 # Play media files 1 minutes after reboot. The script runs in foreground
 #@reboot sleep 1m; env DISPLAY=:0 lxterminal -e "/bin/bash -c '/usr/bin/python /home/pi/project-wn/script_play.py'"

@@ -103,7 +103,11 @@
     # Update line "PasswordAuthentication no"
     sudo /etc/init.d/ssh restart
     ```
-    
+
+## Distribution
+
+Use http://www.pyinstaller.org/
+
 ## Project Setup
 
 ### New device

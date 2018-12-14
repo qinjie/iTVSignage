@@ -1,4 +1,4 @@
-# WiredNoticeboard-Web
+# Yii-Signage (Web)
 
 ##Installation Instruction
 
